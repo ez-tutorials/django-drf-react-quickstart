@@ -1,6 +1,7 @@
 venv
 *node_modules/
-*package-lock*
+package-lock*
+package.json
 *.python-version
 *.coverage
 *.pyc

@@ -20,7 +20,7 @@ class DataProvider extends Component {
           return this.setState({placeholder: "Something went wrong"});
         }
         return response.json();
-      });
+      })
     .then(data => this.setState({data: data, loaded: true}));
   }
 

@@ -7,4 +7,5 @@ const App = () => (
   <DataProvider endpoint="api/lead/" render={data => <Table data={data} />} />
 );
 
-const wrapper ? ReactDOM.render(<App />, wrapper) : null;
+const wrapper = document.getElementById("app");
+wrapper ? ReactDOM.render(<App />, wrapper) : null;
